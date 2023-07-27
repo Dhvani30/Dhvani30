@@ -1,3 +1,5 @@
+![logo](https://github.com/Dhvani30/Dhvani30/blob/main/Premium%20Vector%20_%20Software%20development%20web%20coding%20on%20laptop%20programming%20concept%20website%20design%20coding%20remote%20work%20in%20home.jpeg)
+
 <h1 align="center">Hi 👋, I'm Dhvani Mistry</h1>
 <h3 align="center">Ambitious Coder from India</h3>
 
