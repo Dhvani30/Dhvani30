@@ -1,37 +1,8 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img" aria-label="Cybersecurity skills, security tools, software engineering and data technologies">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10143a"/><stop offset="1" stop-color="#080a1f"/></linearGradient>
-  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4f7cff"/><stop offset="1" stop-color="#ff9a3c"/></linearGradient>
-  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-</defs>
-<rect x="1" y="1" width="878" height="358" rx="20" fill="url(#bg)" stroke="url(#edge)" stroke-opacity=".55"/>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="880" height="330" viewBox="0 0 880 330" role="img" aria-label="Cybersecurity, web and mobile development, and data technologies">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10143a"/><stop offset="1" stop-color="#080a1f"/></linearGradient><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4f7cff"/><stop offset="1" stop-color="#ff9a3c"/></linearGradient></defs>
+<rect x="1" y="1" width="878" height="328" rx="20" fill="url(#bg)" stroke="#4f7cff" stroke-opacity=".36"/>
 <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
- <text x="28" y="38" font-size="11" letter-spacing="3" fill="#ff9a3c">CYBERSECURITY</text><path d="M28 47h52" stroke="#4f7cff" stroke-width="2"/>
- <g font-size="14" fill="#e2e7ff">
-  <rect x="28" y="62" width="194" height="42" rx="12" fill="#4f7cff" fill-opacity=".10" stroke="#4f7cff" stroke-opacity=".55"/><text x="46" y="88">Defensive development</text>
-  <rect x="234" y="62" width="178" height="42" rx="12" fill="#4f7cff" fill-opacity=".10" stroke="#4f7cff" stroke-opacity=".55"/><text x="252" y="88">API threat modeling</text>
-  <rect x="424" y="62" width="134" height="42" rx="12" fill="#4f7cff" fill-opacity=".10" stroke="#4f7cff" stroke-opacity=".55"/><text x="442" y="88">Zero Trust</text>
-  <rect x="570" y="62" width="142" height="42" rx="12" fill="#4f7cff" fill-opacity=".10" stroke="#4f7cff" stroke-opacity=".55"/><text x="588" y="88">OWASP Top 10</text>
-  <rect x="724" y="62" width="128" height="42" rx="12" fill="#4f7cff" fill-opacity=".10" stroke="#4f7cff" stroke-opacity=".55"/><text x="742" y="88">IAM · AWS</text>
- </g>
- <text x="28" y="144" font-size="11" letter-spacing="3" fill="#ff9a3c">SECURITY TOOLS &amp; ENVIRONMENTS</text><path d="M28 153h52" stroke="#4f7cff" stroke-width="2"/>
- <g font-size="14" fill="#e2e7ff">
-  <rect x="28" y="168" width="126" height="42" rx="12" fill="#ff9a3c" fill-opacity=".08" stroke="#ff9a3c" stroke-opacity=".48"/><text x="46" y="194">Burp Suite</text>
-  <rect x="166" y="168" width="112" height="42" rx="12" fill="#ff9a3c" fill-opacity=".08" stroke="#ff9a3c" stroke-opacity=".48"/><text x="184" y="194">Postman</text>
-  <rect x="290" y="168" width="144" height="42" rx="12" fill="#ff9a3c" fill-opacity=".08" stroke="#ff9a3c" stroke-opacity=".48"/><text x="308" y="194">PortSwigger</text>
-  <rect x="446" y="168" width="114" height="42" rx="12" fill="#ff9a3c" fill-opacity=".08" stroke="#ff9a3c" stroke-opacity=".48"/><text x="464" y="194">Linux · Kali</text>
-  <rect x="572" y="168" width="116" height="42" rx="12" fill="#ff9a3c" fill-opacity=".08" stroke="#ff9a3c" stroke-opacity=".48"/><text x="590" y="194">Docker</text>
-  <rect x="700" y="168" width="152" height="42" rx="12" fill="#ff9a3c" fill-opacity=".08" stroke="#ff9a3c" stroke-opacity=".48"/><text x="718" y="194">Ollama · HF</text>
- </g>
- <text x="28" y="250" font-size="11" letter-spacing="3" fill="#ff9a3c">SECURE SOFTWARE &amp; DATA</text><path d="M28 259h52" stroke="#4f7cff" stroke-width="2"/>
- <g font-size="14" fill="#e2e7ff">
-  <rect x="28" y="274" width="112" height="42" rx="12" fill="#ffffff" fill-opacity=".04" stroke="#c9d1ff" stroke-opacity=".24"/><text x="46" y="300">Python</text>
-  <rect x="152" y="274" width="140" height="42" rx="12" fill="#ffffff" fill-opacity=".04" stroke="#c9d1ff" stroke-opacity=".24"/><text x="170" y="300">JavaScript</text>
-  <rect x="304" y="274" width="104" height="42" rx="12" fill="#ffffff" fill-opacity=".04" stroke="#c9d1ff" stroke-opacity=".24"/><text x="322" y="300">React</text>
-  <rect x="420" y="274" width="116" height="42" rx="12" fill="#ffffff" fill-opacity=".04" stroke="#c9d1ff" stroke-opacity=".24"/><text x="438" y="300">Flutter</text>
-  <rect x="548" y="274" width="132" height="42" rx="12" fill="#ffffff" fill-opacity=".04" stroke="#c9d1ff" stroke-opacity=".24"/><text x="566" y="300">FastAPI</text>
-  <rect x="692" y="274" width="160" height="42" rx="12" fill="#ffffff" fill-opacity=".04" stroke="#c9d1ff" stroke-opacity=".24"/><text x="710" y="300">Postgres · Neo4j</text>
- </g>
- <text x="28" y="340" font-size="10" letter-spacing="1.5" fill="#929bcf">ALSO: MongoDB · Redis · Git/GitHub · AWS EC2 &amp; S3</text>
-</g>
-</svg>
+<g><rect x="16" y="16" width="266" height="298" rx="15" fill="#101632" stroke="#4f7cff" stroke-opacity=".42"/><rect x="16" y="16" width="266" height="3" rx="1.5" fill="#4f7cff"/><text x="34" y="52" font-size="12" letter-spacing="2" fill="#8da8ff">SECURITY</text><text x="34" y="82" font-size="17" font-weight="700" fill="#e5eaff">Build it safely</text><text x="34" y="116" font-size="12" fill="#bbc5ee">Defensive development</text><text x="34" y="141" font-size="12" fill="#bbc5ee">API threat modeling</text><text x="34" y="166" font-size="12" fill="#bbc5ee">OWASP Top 10 · Zero Trust</text><text x="34" y="191" font-size="12" fill="#bbc5ee">IAM · AWS · Linux / Kali</text><path d="M34 212H264" stroke="#4f7cff" stroke-opacity=".28"/><text x="34" y="240" font-size="11" fill="#8da8ff">Burp Suite · Postman</text><text x="34" y="263" font-size="11" fill="#8da8ff">PortSwigger · Docker</text><text x="34" y="286" font-size="11" fill="#8da8ff">Privacy-first systems</text></g>
+<g><rect x="307" y="16" width="266" height="298" rx="15" fill="#17152b" stroke="#ff9a3c" stroke-opacity=".4"/><rect x="307" y="16" width="266" height="3" rx="1.5" fill="#ff9a3c"/><text x="325" y="52" font-size="12" letter-spacing="2" fill="#ffbd78">PRODUCT DEVELOPMENT</text><text x="325" y="82" font-size="17" font-weight="700" fill="#fff0dc">Build for people</text><text x="325" y="116" font-size="12" fill="#e5d9ce">Web apps &amp; dashboards</text><text x="325" y="141" font-size="12" fill="#e5d9ce">Mobile app development</text><text x="325" y="166" font-size="12" fill="#e5d9ce">React · Flutter</text><text x="325" y="191" font-size="12" fill="#e5d9ce">Python · JavaScript</text><path d="M325 212H555" stroke="#ff9a3c" stroke-opacity=".28"/><text x="325" y="240" font-size="11" fill="#ffbd78">FastAPI · REST APIs</text><text x="325" y="263" font-size="11" fill="#ffbd78">Accessible interfaces</text><text x="325" y="286" font-size="11" fill="#ffbd78">End-to-end features</text></g>
+<g><rect x="598" y="16" width="266" height="298" rx="15" fill="#101a25" stroke="#56c9ae" stroke-opacity=".4"/><rect x="598" y="16" width="266" height="3" rx="1.5" fill="#56c9ae"/><text x="616" y="52" font-size="12" letter-spacing="2" fill="#76ddc3">DATA &amp; SYSTEMS</text><text x="616" y="82" font-size="17" font-weight="700" fill="#e0fff5">Make sense of data</text><text x="616" y="116" font-size="12" fill="#c3ddd7">Analytics &amp; visualization</text><text x="616" y="141" font-size="12" fill="#c3ddd7">AI-assisted detection</text><text x="616" y="166" font-size="12" fill="#c3ddd7">Graph-based analysis</text><text x="616" y="191" font-size="12" fill="#c3ddd7">Scikit-learn · Hugging Face</text><path d="M616 212H846" stroke="#56c9ae" stroke-opacity=".28"/><text x="616" y="240" font-size="11" fill="#76ddc3">PostgreSQL · MongoDB</text><text x="616" y="263" font-size="11" fill="#76ddc3">Neo4j · Redis</text><text x="616" y="286" font-size="11" fill="#76ddc3">Git · GitHub · AWS S3</text></g>
+</g></svg>

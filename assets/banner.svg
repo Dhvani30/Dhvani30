@@ -143,9 +143,9 @@
     </rect>
   </g>
   <rect x="72" y="228" width="0" height="3" rx="1.5" fill="url(#bar)"><animate attributeName="width" from="0" to="280" begin=".9s" dur="1s" fill="freeze"/></rect>
-  <text x="72" y="266" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="17" fill="#c9d1ff" letter-spacing="3" textLength="560" lengthAdjust="spacing">CYBERSECURITY  •  SECURE SOFTWARE  •  THREAT DETECTION</text>
+  <text x="72" y="266" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="17" fill="#c9d1ff" letter-spacing="3" textLength="560" lengthAdjust="spacing">CYBERSECURITY  •  WEB &amp; MOBILE APPS  •  DASHBOARDS</text>
   <g clip-path="url(#tag)">
-    <text x="72" y="306" font-family="'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-size="20" font-style="italic" fill="#ffc46b">Engineering software with security built in.</text>
+    <text x="72" y="306" font-family="'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-size="20" font-style="italic" fill="#ffc46b">Building secure, useful products.</text>
   </g>
 </g>
 
