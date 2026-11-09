@@ -1,5 +1,75 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-label="Aegis Voice, local-first VoIP scam interception">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#13122e"/><stop offset="1" stop-color="#0a1025"/></linearGradient><linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8b83ff"/><stop offset="1" stop-color="#53d1d4"/></linearGradient></defs>
-<rect x="1" y="1" width="878" height="238" rx="22" fill="url(#bg)" stroke="#8179f4" stroke-opacity=".58"/><path d="M540 2h318a20 20 0 0 1 20 20v196H560q-25-100-20-216Z" fill="#7972ef" opacity=".05"/>
-<g font-family="'JetBrains Mono',Consolas,monospace"><text x="40" y="38" font-size="11" letter-spacing="3" fill="#a9a4ff">PERSONAL PROJECT</text><text x="40" y="92" font-family="'Segoe UI',Arial,sans-serif" font-size="39" font-weight="800" fill="#f5f3ff">AEGIS VOICE</text><text x="42" y="120" font-family="'Segoe UI',Arial,sans-serif" font-size="16" fill="#c7c4ed">A local-first VoIP scam interceptor</text><text x="42" y="157" font-family="'Segoe UI',Arial,sans-serif" font-size="14" fill="#d6d3ee">Screens calls on-device and keeps audio private.</text><rect x="42" y="179" width="175" height="35" rx="8" fill="#24234c" stroke="#8179f4" stroke-opacity=".65"/><text x="129" y="201" text-anchor="middle" font-size="12" fill="#c4c0ff">ZERO-CLOUD</text><rect x="229" y="179" width="203" height="35" rx="8" fill="#24234c" stroke="#8179f4" stroke-opacity=".65"/><text x="330" y="201" text-anchor="middle" font-size="12" fill="#c4c0ff">REAL-TIME ANALYSIS</text></g>
-<g transform="translate(669 121)" fill="none" stroke="url(#wave)" stroke-linecap="round"><path d="M-154 0h22l8-20 13 42 15-58 18 80 17-51 14 26 13-13h27" stroke-width="3"/><path d="M16 0h22l8-20 13 42 15-58 18 80 17-51 14 26 13-13h27" stroke-width="3"/><path d="M-40-11v-9a40 40 0 0 1 80 0v9M-50-11h100v65h-100z" stroke-width="3"/><circle cy="19" r="5" fill="#8b83ff"/><path d="M0 24v13" stroke-width="3"/></g><text x="669" y="218" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" letter-spacing="2" fill="#a9a4ff">AUDIO STAYS ON DEVICE</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="330" viewBox="0 0 880 330" role="img" aria-label="Aegis Voice featured project">
+<defs>
+  <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8b83ff"/><stop offset=".5" stop-color="#53d1d4"/><stop offset="1" stop-color="#8b83ff"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#15133a"/><stop offset="1" stop-color="#070918"/>
+  </linearGradient>
+  <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#8b83ff"/>
+  </linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#53d1d4"/><stop offset="1" stop-color="#8b83ff"/>
+  </linearGradient>
+  <radialGradient id="aura"><stop offset="0" stop-color="#8b83ff" stop-opacity=".35"/><stop offset="1" stop-color="#8b83ff" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#8b83ff" fill-opacity=".25"/></pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="card"><rect x="2" y="2" width="876" height="326" rx="22"/></clipPath>
+</defs>
+<rect x="2" y="2" width="876" height="326" rx="22" fill="url(#panel)"/>
+<g clip-path="url(#card)">
+  <rect x="2" y="2" width="876" height="326" fill="url(#dots)"/>
+  <circle cx="705" cy="165" r="190" fill="url(#aura)"><animate attributeName="r" values="170;210;170" dur="6s" repeatCount="indefinite"/></circle>
+
+  <!-- pulsing rings -->
+  <circle cx="705" cy="165" r="60" fill="none" stroke="#8b83ff" stroke-opacity=".3" stroke-width="1.2"><animate attributeName="r" values="56;66;56" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="705" cy="165" r="90" fill="none" stroke="#53d1d4" stroke-opacity=".22" stroke-width="1.2"><animate attributeName="r" values="86;96;86" dur="3.6s" repeatCount="indefinite"/></circle>
+  <circle cx="705" cy="165" r="120" fill="none" stroke="#8b83ff" stroke-opacity=".14" stroke-width="1"><animate attributeName="r" values="116;126;116" dur="4.2s" repeatCount="indefinite"/></circle>
+
+  <!-- pipeline links -->
+  <line x1="705" y1="165" x2="590" y2="120" stroke="#8b83ff" stroke-opacity=".6" stroke-width="1.4" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="0;-20" dur="1.6s" repeatCount="indefinite"/></line>
+  <line x1="705" y1="165" x2="820" y2="120" stroke="#53d1d4" stroke-opacity=".6" stroke-width="1.4" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="0;-20" dur="1.6s" repeatCount="indefinite"/></line>
+  <line x1="705" y1="165" x2="705" y2="262" stroke="#c4c0ff" stroke-opacity=".6" stroke-width="1.4" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="0;-20" dur="1.6s" repeatCount="indefinite"/></line>
+
+  <!-- audio waveform bars -->
+  <g fill="url(#bar)" filter="url(#glow)">
+    <rect x="646" y="155" width="6" height="20" rx="3"><animate attributeName="height" values="20;8;20" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="155;161;155" dur="1.2s" repeatCount="indefinite"/></rect>
+    <rect x="660" y="147" width="6" height="36" rx="3"><animate attributeName="height" values="36;14;36" dur="1.4s" begin="0.1s" repeatCount="indefinite"/><animate attributeName="y" values="147;158;147" dur="1.4s" begin="0.1s" repeatCount="indefinite"/></rect>
+    <rect x="674" y="137" width="6" height="56" rx="3"><animate attributeName="height" values="56;22;56" dur="1.1s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="y" values="137;154;137" dur="1.1s" begin="0.2s" repeatCount="indefinite"/></rect>
+    <rect x="688" y="125" width="6" height="80" rx="3"><animate attributeName="height" values="80;32;80" dur="1.5s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="y" values="125;149;125" dur="1.5s" begin="0.3s" repeatCount="indefinite"/></rect>
+    <rect x="702" y="115" width="6" height="100" rx="3"><animate attributeName="height" values="100;40;100" dur="1.3s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="y" values="115;145;115" dur="1.3s" begin="0.4s" repeatCount="indefinite"/></rect>
+    <rect x="716" y="125" width="6" height="80" rx="3"><animate attributeName="height" values="80;32;80" dur="1.6s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="y" values="125;149;125" dur="1.6s" begin="0.2s" repeatCount="indefinite"/></rect>
+    <rect x="730" y="137" width="6" height="56" rx="3"><animate attributeName="height" values="56;22;56" dur="1.2s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="y" values="137;154;137" dur="1.2s" begin="0.5s" repeatCount="indefinite"/></rect>
+    <rect x="744" y="147" width="6" height="36" rx="3"><animate attributeName="height" values="36;14;36" dur="1.4s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="y" values="147;158;147" dur="1.4s" begin="0.3s" repeatCount="indefinite"/></rect>
+    <rect x="758" y="155" width="6" height="20" rx="3"><animate attributeName="height" values="20;8;20" dur="1.3s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="y" values="155;161;155" dur="1.3s" begin="0.6s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- nodes -->
+  <circle cx="590" cy="120" r="17" fill="#0b0d1f" stroke="#8b83ff" stroke-width="2" filter="url(#glow)"><animate attributeName="r" values="16;19;16" dur="3.0s" repeatCount="indefinite"/></circle>
+  <text x="590" y="124" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="800" fill="#8b83ff">MIC</text>
+  <circle cx="820" cy="120" r="17" fill="#0b0d1f" stroke="#53d1d4" stroke-width="2" filter="url(#glow)"><animate attributeName="r" values="16;19;16" dur="3.4s" repeatCount="indefinite"/></circle>
+  <text x="820" y="124" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="800" fill="#53d1d4">AI</text>
+  <circle cx="705" cy="262" r="17" fill="#0b0d1f" stroke="#c4c0ff" stroke-width="2" filter="url(#glow)"><animate attributeName="r" values="16;19;16" dur="3.8s" repeatCount="indefinite"/></circle>
+  <text x="705" y="266" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="800" fill="#c4c0ff">OK</text>
+
+  <!-- travelling packets -->
+  <circle r="3.2" fill="#fff" filter="url(#glow)" opacity="0"><animateMotion dur="3.4s" begin="0.00s" repeatCount="indefinite" path="M 590 120 L 705 165"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3.4s" begin="0.00s" repeatCount="indefinite"/></circle>
+  <circle r="3.2" fill="#fff" filter="url(#glow)" opacity="0"><animateMotion dur="3.4s" begin="1.10s" repeatCount="indefinite" path="M 705 165 L 820 120"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3.4s" begin="1.10s" repeatCount="indefinite"/></circle>
+  <circle r="3.2" fill="#fff" filter="url(#glow)" opacity="0"><animateMotion dur="3.4s" begin="2.20s" repeatCount="indefinite" path="M 705 165 L 705 262"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3.4s" begin="2.20s" repeatCount="indefinite"/></circle>
+</g>
+<rect x="2" y="2" width="876" height="326" rx="22" fill="none" stroke="url(#bd)" stroke-width="2"/>
+
+<rect x="40" y="34" width="190" height="26" rx="13" fill="#8b83ff" fill-opacity=".14" stroke="#8b83ff" stroke-opacity=".7"/>
+<text x="135" y="51.5" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="3" fill="#a9a4ff">PERSONAL PROJECT</text>
+<text x="40" y="124" font-family="'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-size="54" font-weight="800" fill="#8b83ff" opacity=".4" filter="url(#glow)" textLength="390" lengthAdjust="spacingAndGlyphs">AEGIS VOICE</text>
+<text x="40" y="124" font-family="'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-size="54" font-weight="800" fill="url(#title)" textLength="390" lengthAdjust="spacingAndGlyphs">AEGIS VOICE</text>
+<text x="40" y="158" font-family="'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-size="16" fill="#c9d1ff" textLength="430" lengthAdjust="spacingAndGlyphs">A local-first VoIP scam interceptor that screens</text>
+<text x="40" y="180" font-family="'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-size="16" fill="#c9d1ff" textLength="405" lengthAdjust="spacingAndGlyphs">calls on-device and keeps your audio private.</text>
+<rect x="40" y="208" width="112" height="28" rx="14" fill="#8b83ff" fill-opacity=".14" stroke="#8b83ff" stroke-opacity=".6"/><text x="96" y="226.5" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#c9d1ff">Zero-cloud</text>
+<rect x="162" y="208" width="178" height="28" rx="14" fill="#8b83ff" fill-opacity=".14" stroke="#8b83ff" stroke-opacity=".6"/><text x="251" y="226.5" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#c9d1ff">Real-time analysis</text>
+<rect x="350" y="208" width="63" height="28" rx="14" fill="#8b83ff" fill-opacity=".14" stroke="#8b83ff" stroke-opacity=".6"/><text x="381.5" y="226.5" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#c9d1ff">VoIP</text>
+<rect x="40" y="260" width="196" height="40" rx="20" fill="#8b83ff"/>
+<text x="138" y="285" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="800" letter-spacing="2" fill="#05061a">VIEW ON GITHUB  →</text>
+<text x="256" y="285" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="1" fill="#c9d1ff" opacity=".6">audio stays on device</text>
+</svg>
