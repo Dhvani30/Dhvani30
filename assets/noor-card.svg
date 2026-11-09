@@ -1,6 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-label="Noor, women's safety and anomaly detection, personal project 2023">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b211c"/><stop offset="1" stop-color="#10162a"/></linearGradient><linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#71e0b7"/><stop offset="1" stop-color="#e5c86d"/></linearGradient></defs>
-<rect x="1" y="1" width="878" height="238" rx="22" fill="url(#bg)" stroke="#69d6ad" stroke-opacity=".55"/><path d="M2 218 Q150 190 240 239 H22Q2 239 2 218Z" fill="#68d5ae" opacity=".06"/>
-<g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"><text x="40" y="38" font-size="11" font-family="'JetBrains Mono',Consolas,monospace" letter-spacing="3" fill="#80e1be">PERSONAL PROJECT · 2023</text><text x="40" y="91" font-size="39" font-weight="800" fill="#f4fff8">NOOR</text><text x="42" y="119" font-size="16" fill="#b9ddd0">Women's safety &amp; anomaly detection</text><text x="42" y="157" font-size="14" fill="#d3e9df">Python + Scikit-learn flag suspicious behavior in real time.</text><rect x="42" y="178" width="180" height="36" rx="18" fill="#183c34" stroke="#69d6ad" stroke-opacity=".6"/><text x="132" y="201" text-anchor="middle" font-size="13" font-weight="700" fill="#a7f0d5">88% PRECISION</text><rect x="234" y="178" width="268" height="36" rx="18" fill="#183c34" stroke="#69d6ad" stroke-opacity=".6"/><text x="368" y="201" text-anchor="middle" font-size="13" font-weight="700" fill="#a7f0d5">AES-256 GEO DATA TRANSMISSION</text></g>
-<g transform="translate(696 121)" fill="none" stroke="url(#mint)" stroke-width="3"><circle r="76" opacity=".12"/><circle r="59" opacity=".22"/><circle r="40" opacity=".38"/><path d="M0-54 37-39v30c0 31-22 48-37 56C-15 39-37 22-37-9v-30z" fill="#122c25"/><path d="M-15 0l11 11 22-25" stroke-linecap="round" stroke-linejoin="round"/><circle cx="0" cy="-54" r="4" fill="#e5c86d" stroke="none"/><circle cx="37" cy="-39" r="4" fill="#71e0b7" stroke="none"/><circle cx="-37" cy="-39" r="4" fill="#71e0b7" stroke="none"/></g>
-<text x="696" y="222" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" letter-spacing="2" fill="#80e1be">SIGNAL · SAFETY · PRIVACY</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="330" viewBox="0 0 880 330" role="img" aria-label="Noor featured project">
+<defs>
+  <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#71e0b7"/><stop offset=".5" stop-color="#e5c86d"/><stop offset="1" stop-color="#71e0b7"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d2a23"/><stop offset="1" stop-color="#070918"/>
+  </linearGradient>
+  <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#71e0b7"/>
+  </linearGradient>
+  <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#71e0b7"/><stop offset="1" stop-color="#e5c86d"/>
+  </linearGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#71e0b7" stop-opacity="0"/><stop offset="1" stop-color="#71e0b7" stop-opacity=".4"/>
+  </linearGradient>
+  <radialGradient id="aura"><stop offset="0" stop-color="#71e0b7" stop-opacity=".3"/><stop offset="1" stop-color="#71e0b7" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#71e0b7" fill-opacity=".25"/></pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="card"><rect x="2" y="2" width="876" height="326" rx="22"/></clipPath>
+</defs>
+<rect x="2" y="2" width="876" height="326" rx="22" fill="url(#panel)"/>
+<g clip-path="url(#card)">
+  <rect x="2" y="2" width="876" height="326" fill="url(#dots)"/>
+  <circle cx="705" cy="165" r="190" fill="url(#aura)"><animate attributeName="r" values="170;210;170" dur="6s" repeatCount="indefinite"/></circle>
+
+  <!-- radar rings -->
+  <circle cx="705" cy="165" r="60" fill="none" stroke="#71e0b7" stroke-opacity=".3" stroke-width="1.2"/>
+  <circle cx="705" cy="165" r="90" fill="none" stroke="#71e0b7" stroke-opacity=".22" stroke-width="1.2"/>
+  <circle cx="705" cy="165" r="120" fill="none" stroke="#e5c86d" stroke-opacity=".16" stroke-width="1"/>
+
+  <!-- radar sweep -->
+  <g transform="translate(705 165)">
+    <path d="M0 0 L120 0 A120 120 0 0 0 103.9 -60 Z" fill="url(#sweep)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- links -->
+  <line x1="705" y1="165" x2="598" y2="105" stroke="#71e0b7" stroke-opacity=".6" stroke-width="1.4" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="0;-20" dur="1.6s" repeatCount="indefinite"/></line>
+  <line x1="705" y1="165" x2="815" y2="100" stroke="#e5c86d" stroke-opacity=".6" stroke-width="1.4" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="0;-20" dur="1.6s" repeatCount="indefinite"/></line>
+  <line x1="705" y1="165" x2="815" y2="235" stroke="#ffc46b" stroke-opacity=".6" stroke-width="1.4" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="0;-20" dur="1.6s" repeatCount="indefinite"/></line>
+  <line x1="705" y1="165" x2="598" y2="240" stroke="#c9f5e5" stroke-opacity=".6" stroke-width="1.4" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" values="0;-20" dur="1.6s" repeatCount="indefinite"/></line>
+
+  <!-- nodes -->
+  <circle cx="598" cy="105" r="17" fill="#0b0d1f" stroke="#71e0b7" stroke-width="2" filter="url(#glow)"><animate attributeName="r" values="16;19;16" dur="3.0s" repeatCount="indefinite"/></circle>
+  <text x="598" y="109" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="800" fill="#71e0b7">GPS</text>
+  <circle cx="815" cy="100" r="17" fill="#0b0d1f" stroke="#e5c86d" stroke-width="2" filter="url(#glow)"><animate attributeName="r" values="16;19;16" dur="3.4s" repeatCount="indefinite"/></circle>
+  <text x="815" y="104" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="800" fill="#e5c86d">ML</text>
+  <circle cx="815" cy="235" r="17" fill="#0b0d1f" stroke="#ffc46b" stroke-width="2" filter="url(#glow)"><animate attributeName="r" values="16;19;16" dur="3.8s" repeatCount="indefinite"/></circle>
+  <text x="815" y="239" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="800" fill="#ffc46b">SOS</text>
+  <circle cx="598" cy="240" r="17" fill="#0b0d1f" stroke="#c9f5e5" stroke-width="2" filter="url(#glow)"><animate attributeName="r" values="16;19;16" dur="4.2s" repeatCount="indefinite"/></circle>
+  <text x="598" y="244" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="800" fill="#c9f5e5">ENC</text>
+
+  <!-- travelling packets -->
+  <circle r="3.2" fill="#fff" filter="url(#glow)" opacity="0"><animateMotion dur="3.4s" begin="0.00s" repeatCount="indefinite" path="M 598 105 L 705 165"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3.4s" begin="0.00s" repeatCount="indefinite"/></circle>
+  <circle r="3.2" fill="#fff" filter="url(#glow)" opacity="0"><animateMotion dur="3.4s" begin="0.85s" repeatCount="indefinite" path="M 705 165 L 815 100"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3.4s" begin="0.85s" repeatCount="indefinite"/></circle>
+  <circle r="3.2" fill="#fff" filter="url(#glow)" opacity="0"><animateMotion dur="3.4s" begin="1.70s" repeatCount="indefinite" path="M 705 165 L 815 235"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3.4s" begin="1.70s" repeatCount="indefinite"/></circle>
+  <circle r="3.2" fill="#fff" filter="url(#glow)" opacity="0"><animateMotion dur="3.4s" begin="2.55s" repeatCount="indefinite" path="M 705 165 L 598 240"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="3.4s" begin="2.55s" repeatCount="indefinite"/></circle>
+
+  <!-- shield core -->
+  <g transform="translate(705 165) scale(0.95)" fill="none" stroke="url(#mint)" stroke-width="3" filter="url(#glow)">
+    <path d="M0-54 37-39v30c0 31-22 48-37 56C-15 39-37 22-37-9v-30z" fill="#0b1f1a"/>
+    <path d="M-15 0l11 11 22-25" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="0" cy="-54" r="4" fill="#e5c86d" stroke="none"><animate attributeName="opacity" values=".4;1;.4" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="37" cy="-39" r="4" fill="#71e0b7" stroke="none"><animate attributeName="opacity" values=".4;1;.4" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="-37" cy="-39" r="4" fill="#71e0b7" stroke="none"><animate attributeName="opacity" values=".4;1;.4" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+</g>
+<rect x="2" y="2" width="876" height="326" rx="22" fill="none" stroke="url(#bd)" stroke-width="2"/>
+
+<rect x="40" y="34" width="230" height="26" rx="13" fill="#71e0b7" fill-opacity=".14" stroke="#71e0b7" stroke-opacity=".7"/>
+<text x="155" y="51.5" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="3" fill="#80e1be">PERSONAL PROJECT · 2023</text>
+<text x="40" y="124" font-family="'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-size="62" font-weight="800" fill="#71e0b7" opacity=".4" filter="url(#glow)" textLength="230" lengthAdjust="spacingAndGlyphs">NOOR</text>
+<text x="40" y="124" font-family="'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-size="62" font-weight="800" fill="url(#title)" textLength="230" lengthAdjust="spacingAndGlyphs">NOOR</text>
+<text x="40" y="158" font-family="'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-size="16" fill="#c9d1ff" textLength="413" lengthAdjust="spacingAndGlyphs">Women's safety and anomaly detection, flagging</text>
+<text x="40" y="180" font-family="'Segoe UI','Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-size="16" fill="#c9d1ff" textLength="405" lengthAdjust="spacingAndGlyphs">suspicious behavior in real time with Python.</text>
+<rect x="40" y="208" width="79" height="28" rx="14" fill="#71e0b7" fill-opacity=".14" stroke="#71e0b7" stroke-opacity=".6"/><text x="79.5" y="226.5" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#c9d1ff">Python</text>
+<rect x="129" y="208" width="128" height="28" rx="14" fill="#71e0b7" fill-opacity=".14" stroke="#71e0b7" stroke-opacity=".6"/><text x="193" y="226.5" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#c9d1ff">Scikit-learn</text>
+<rect x="267" y="208" width="137" height="28" rx="14" fill="#71e0b7" fill-opacity=".14" stroke="#71e0b7" stroke-opacity=".6"/><text x="335.5" y="226.5" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#c9d1ff">88% precision</text>
+<rect x="414" y="208" width="87" height="28" rx="14" fill="#71e0b7" fill-opacity=".14" stroke="#71e0b7" stroke-opacity=".6"/><text x="457.5" y="226.5" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#c9d1ff">AES-256</text>
+<rect x="40" y="260" width="196" height="40" rx="20" fill="#71e0b7"/>
+<text x="138" y="285" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="800" letter-spacing="2" fill="#05061a">VIEW ON GITHUB  →</text>
+<text x="256" y="285" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="1" fill="#c9d1ff" opacity=".6">AES-256 geo data transmission</text>
+</svg>
