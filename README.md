@@ -64,11 +64,12 @@ My work spans application security and threat modeling, social analytics, women'
 <img src="assets/h-stats.svg" width="100%" alt="04 GitHub analytics" />
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Dhvani30&show_icons=true&include_all_commits=true&count_private=true&bg_color=0b0d1f&border_color=2a3170&border_radius=16&title_color=ff9a3c&text_color=c9d1ff&icon_color=4f7cff&ring_color=ff9a3c" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhvani30&layout=compact&include_all_commits=true&count_private=true&bg_color=0b0d1f&border_color=2a3170&border_radius=16&title_color=ff9a3c&text_color=c9d1ff" alt="Top languages" />
+  <img height="170" src="assets/generated/stats-card.svg" alt="GitHub stars, commits, pull requests, issues, and contributed repositories" />
+  <img height="170" src="assets/generated/top-languages.svg" alt="Top six programming languages by bytes across public repositories" />
   <br/>
-  <img src="https://streak-stats.demolab.com?user=Dhvani30&background=0b0d1f&border=2a3170&ring=ff9a3c&fire=ff9a3c&currStreakLabel=ffc46b&currStreakNum=ffffff&sideNums=c9d1ff&sideLabels=4f7cff&dates=8b93c9&border_radius=16" alt="Contribution streak" />
+  <img src="assets/generated/streak.svg" width="880" alt="Current and longest GitHub contribution streaks and total contributions" />
   <br/>
+  <img src="assets/generated/radar.svg" width="440" alt="GitHub activity radar for commits, pull requests, code reviews, issues, repositories, and stars" />
 </div>
 
 <br/>

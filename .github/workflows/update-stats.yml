@@ -1,0 +1,50 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generated-profile-stats
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Select GitHub token
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -n "$GH_STATS_TOKEN" ]; then
+            echo "GH_TOKEN=$GH_STATS_TOKEN" >> "$GITHUB_ENV"
+            echo "Using GH_STATS_TOKEN (private contribution access may be available)."
+          else
+            echo "GH_TOKEN=$GITHUB_TOKEN" >> "$GITHUB_ENV"
+            echo "GH_STATS_TOKEN is not configured; using GITHUB_TOKEN with reduced data."
+          fi
+          echo "GH_USER=${GITHUB_REPOSITORY_OWNER}" >> "$GITHUB_ENV"
+      - name: Generate SVGs
+        run: python scripts/generate_stats.py
+      - name: Commit generated files when changed
+        run: |
+          git add assets/generated/
+          if git diff --cached --quiet -- assets/generated/; then
+            echo "Generated SVGs are unchanged."
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "chore: update generated stats [skip ci]"
+          git push
