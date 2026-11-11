@@ -64,12 +64,12 @@ My work spans application security and threat modeling, social analytics, women'
 <img src="assets/h-stats.svg" width="100%" alt="04 GitHub analytics" />
 
 <div align="center">
-  <img height="170" src="assets/generated/stats-card.svg" alt="GitHub stars, commits, pull requests, issues, and contributed repositories" />
-  <img height="170" src="assets/generated/top-languages.svg" alt="Top six programming languages by bytes across public repositories" />
+  <img width="49%" src="assets/generated/stats-card.svg" alt="GitHub stars, commits, pull requests, issues, and contributed repositories" />
+  <img width="49%" src="assets/generated/top-languages.svg" alt="Top six programming languages by bytes across public repositories" />
   <br/>
-  <img src="assets/generated/streak.svg" width="880" alt="Current and longest GitHub contribution streaks and total contributions" />
+  <img src="assets/generated/streak.svg" width="98%" alt="Current and longest GitHub contribution streaks and total contributions" />
   <br/>
-  <img src="assets/generated/radar.svg" width="440" alt="GitHub activity radar for commits, pull requests, code reviews, issues, repositories, and stars" />
+  <img src="assets/generated/radar.svg" width="440" alt="GitHub activity radar for commits, pull requests, owned repositories, stars, distinct languages, and active contribution days" />
 </div>
 
 <br/>
